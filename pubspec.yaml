@@ -1,0 +1,41 @@
+name: event_scheduler
+description: A Flutter + Supabase event scheduler with notifications.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.1.0
+
+  # Supabase
+  supabase_flutter: ^2.2.4
+
+  # Local Notifications
+  flutter_local_notifications: ^17.0.0
+
+  # Local Storage
+  shared_preferences: ^2.2.2
+
+  # Timezones for notifications
+  timezone: ^0.9.2
+
+  # UI
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo.png
